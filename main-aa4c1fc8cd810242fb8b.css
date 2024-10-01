@@ -4,11 +4,25 @@
 .header_div {
     margin: 15px;
 }
+/*!***********************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/response/response.styles.css ***!
+  \***********************************************************************************************/
+.response_div {
+    background: #ffffff;
+    min-height: 250px;
+    width: 98%;
+    margin: 10px;
+    border: solid rgb(225, 221, 221) 1px;
+    border-radius: 10px;
+}
 /*!*******************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/main/main.div.styles.css ***!
   \*******************************************************************************************/
 .main_div {
     display: flex;
+    margin: 10px;
+    border: solid rgb(225, 221, 221) 1px;
+    border-radius: 10px;
 }
 /*!******************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./src/styles.css ***!
@@ -19,11 +33,11 @@
     box-sizing: border-box;
 }
 
-body {
+/* body {
     line-height: 1.2;
     font-size: 18px;
     background-color: #66deb2;
-}
+} */
 
 h1, h2 {
     text-align: center;
