@@ -1,0 +1,8 @@
+.response_div {
+    background: #ffffff;
+    min-height: 250px;
+    width: 98%;
+    margin: 10px;
+    border: solid rgb(225, 221, 221) 1px;
+    border-radius: 10px;
+}
