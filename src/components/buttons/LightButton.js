@@ -1,5 +1,5 @@
 import React from "react";
 
 export default ({ text }) => {
-    return <button type="button" class="btn btn-light">{text}</button>
+    return <button type="button" className="btn btn-light">{text}</button>
 }
